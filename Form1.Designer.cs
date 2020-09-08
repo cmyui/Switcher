@@ -47,12 +47,12 @@
             this.switchButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.switchButton.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.switchButton.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.switchButton.Location = new System.Drawing.Point(239, 12);
+            this.switchButton.Location = new System.Drawing.Point(244, 10);
             this.switchButton.Name = "switchButton";
             this.switchButton.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.switchButton.Size = new System.Drawing.Size(115, 31);
+            this.switchButton.Size = new System.Drawing.Size(128, 31);
             this.switchButton.TabIndex = 0;
-            this.switchButton.Text = "Currently: Akatsuki";
+            this.switchButton.Text = "Currently: Unspec";
             this.switchButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.switchButton.UseVisualStyleBackColor = false;
             //
@@ -60,11 +60,11 @@
             //
             this.ipBox.BackColor = System.Drawing.Color.DarkGray;
             this.ipBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.ipBox.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.ipBox.Location = new System.Drawing.Point(239, 47);
+            this.ipBox.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.ipBox.Location = new System.Drawing.Point(244, 47);
             this.ipBox.MaxLength = 15;
             this.ipBox.Name = "ipBox";
-            this.ipBox.Size = new System.Drawing.Size(115, 18);
+            this.ipBox.Size = new System.Drawing.Size(128, 20);
             this.ipBox.TabIndex = 1;
             this.ipBox.Text = "123.456.789.420";
             this.ipBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -75,7 +75,7 @@
             this.dcBox.BackColor = System.Drawing.Color.Transparent;
             this.dcBox.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dcBox.Image = global::Switcher.Properties.Resources.dc;
-            this.dcBox.Location = new System.Drawing.Point(273, 73);
+            this.dcBox.Location = new System.Drawing.Point(273, 70);
             this.dcBox.Name = "dcBox";
             this.dcBox.Size = new System.Drawing.Size(24, 22);
             this.dcBox.TabIndex = 2;
@@ -87,7 +87,7 @@
             this.ytBox.BackColor = System.Drawing.Color.Transparent;
             this.ytBox.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ytBox.Image = global::Switcher.Properties.Resources.yt;
-            this.ytBox.Location = new System.Drawing.Point(244, 76);
+            this.ytBox.Location = new System.Drawing.Point(244, 73);
             this.ytBox.Name = "ytBox";
             this.ytBox.Size = new System.Drawing.Size(24, 18);
             this.ytBox.TabIndex = 3;
@@ -100,7 +100,7 @@
             this.helpLabel.BackColor = System.Drawing.Color.Transparent;
             this.helpLabel.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpLabel.ForeColor = System.Drawing.Color.Red;
-            this.helpLabel.Location = new System.Drawing.Point(301, 73);
+            this.helpLabel.Location = new System.Drawing.Point(299, 70);
             this.helpLabel.Name = "helpLabel";
             this.helpLabel.Size = new System.Drawing.Size(53, 21);
             this.helpLabel.TabIndex = 4;
@@ -131,7 +131,7 @@
             // newsBox
             //
             this.newsBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
-            this.newsBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.newsBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.newsBox.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.newsBox.ForeColor = System.Drawing.SystemColors.Window;
             this.newsBox.Location = new System.Drawing.Point(12, 12);
@@ -148,7 +148,7 @@
             this.sysTray.BalloonTipText = "To re-open, double-click the icon";
             this.sysTray.BalloonTipTitle = "Switcher minimized to system tray";
             this.sysTray.Icon = ((System.Drawing.Icon)(resources.GetObject("sysTray.Icon")));
-            this.sysTray.Text = "o!A Switcher";
+            this.sysTray.Text = "o!A Switcher\r\nCurrently: Unspec";
             this.sysTray.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.sysTray_MouseDoubleClick);
             //
             // Form1
@@ -157,7 +157,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(361, 103);
+            this.ClientSize = new System.Drawing.Size(381, 98);
             this.Controls.Add(this.newsBox);
             this.Controls.Add(this.helpLabel);
             this.Controls.Add(this.ytBox);
