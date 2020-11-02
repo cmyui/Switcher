@@ -91,6 +91,15 @@ namespace Switcher.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Failed to connect to the server; running on defaults..
+        /// </summary>
+        internal static string newsBox_Text {
+            get {
+                return ResourceManager.GetString("newsBox.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap yt {
